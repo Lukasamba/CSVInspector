@@ -30,3 +30,6 @@ MIT
 
 ## 📋 Changelog
 - v1.0.0: Initial release
+
+![Python](https://img.shields.io/badge/python-3.7+-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
