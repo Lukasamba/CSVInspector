@@ -22,6 +22,7 @@ def main():
 
         with open("report.md", "w") as f:
             f.write(inspector.to_markdown_report())
+        print("\n📄 Report saved as csvinspector_report.md")
 
 if __name__ == "__main__":
     main()
