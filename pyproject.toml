@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "csvinspector"
-version = "1.0.1"
+version = "1.0.2"
 description = "CSV Validation and Analysis Tool"
 authors = [
     { name="Lukas Velička", email="youremail@example.com" }

@@ -67,3 +67,17 @@ class CSVInspector:
             "duplicate_rows": len(self.check_duplicate_rows()),
             "consistent_columns": self.check_column_consistency(),
         }
+
+    def to_markdown_report(self) -> str:
+        summary = self.summary_report()
+        md = [
+            "# CSVInspector Report",
+            "",
+            f"- **Missing headers**: {summary['missing_headers'] or 'None'}",
+            f"- **Duplicate rows**: {summary['duplicate_rows']}",
+            f"- **Consistent columns**: {summary['consistent_columns']}",
+            "",
+            "### Notes",
+            "- Use the Python API to validate column types with a schema."
+        ]
+        return "\n".join(md)

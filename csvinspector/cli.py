@@ -20,5 +20,8 @@ def main():
         print("Schema Validation: Not available in CLI (use Python API)")
         print("Summary:", inspector.summary_report())
 
+        with open("report.md", "w") as f:
+            f.write(inspector.to_markdown_report())
+
 if __name__ == "__main__":
     main()
