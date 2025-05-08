@@ -9,7 +9,7 @@ CSVInspector is a reusable Python component for validating and analyzing CSV fil
 
 ## 🚀 Installation
 ```bash
-pip install git+https://github.com/yourusername/csvinspector.git
+pip install git+https://github.com/Lukasamba/csvinspector.git
 ```
 
 ## 📦 Usage
