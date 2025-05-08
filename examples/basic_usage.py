@@ -1,4 +1,4 @@
-from s import CSVInspector
+from csvinspector import CSVInspector
 
 inspector = CSVInspector("example.csv")
 
