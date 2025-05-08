@@ -1,6 +1,6 @@
 import os
 import tempfile
-from csvinspector import CSVInspector
+from s import CSVInspector
 
 def test_summary():
     content = """name,age,email\nJohn,30,john@example.com\nJane,25,jane@example.com\nJohn,30,john@example.com\n"""

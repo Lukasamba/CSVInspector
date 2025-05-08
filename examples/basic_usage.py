@@ -1,4 +1,4 @@
-from csvinspector import CSVInspector
+from s import CSVInspector
 
 inspector = CSVInspector("example.csv")
 
@@ -19,7 +19,7 @@ print("Summary:", inspector.summary_report())
 from setuptools import setup, find_packages
 
 setup(
-    name='csvinspector',
+    name='s',
     version='1.0.0',
     description='CSV Validation and Analysis Tool',
     author='Your Name',

@@ -1,4 +1,3 @@
-### csvinspector/inspector.py
 import csv
 from collections import Counter
 from datetime import datetime
