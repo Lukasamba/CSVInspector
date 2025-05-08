@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "csvinspector"
-version = "1.0.0"
+version = "1.0.1"
 description = "CSV Validation and Analysis Tool"
 authors = [
     { name="Lukas Velička", email="youremail@example.com" }
@@ -16,3 +16,6 @@ dependencies = []
 
 [project.urls]
 Homepage = "https://github.com/Lukasamba/csvinspector"
+
+[project.scripts]
+csvinspector = "csvinspector.cli:main"
